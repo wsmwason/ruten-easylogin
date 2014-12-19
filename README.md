@@ -5,6 +5,11 @@ ruten-easylogin
 
 ### 關於露天拍賣登入便
 
+在露天拍賣(www.ruten.com.tw)登入時，可使用 Enter 直接登入，免去辨識圖片登入按鈕位置，
+亦可修改本 Script 輸入帳號密碼進行自動登入。
+
+### Captcha 方式
+
 露天拍賣的登入實際上需要 Captcha 的驗證，只是做成了圖片位置座標變換，
 需要以肉眼判斷座標位置，此 Script 使用 HTML5 canvas 讀取圖片位置，
 將可透過 Enter 直接進行登入。
